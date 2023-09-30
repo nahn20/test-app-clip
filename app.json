@@ -16,7 +16,11 @@
     ],
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifier": "com.joinswsh.appclip"
+      "bundleIdentifier": "com.joinswsh.appclip",
+      "buildNumber": "3",
+      "associatedDomains": [
+        "appclips:dev-web-app.joinswsh.com"
+      ]
     },
     "android": {
       "adaptiveIcon": {
@@ -36,7 +40,7 @@
     "plugins": [
       [
 	"react-native-app-clip",
-	{ "name": "Test App Clip", "appleSignin": false }
+	{ "name": "Test App Clip", "appleSignin": false, "deploymentTarget": "16.4" }
       ]
     ]
   }
