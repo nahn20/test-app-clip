@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.joinswsh.appclip"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4f771803-1247-4f42-a0a7-f5bde2cbf7f0"
+      }
+    },
+    "owner": "nathan_ahn",
+    "plugins": [
+    ]
   }
 }
